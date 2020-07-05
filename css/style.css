@@ -1,0 +1,65 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #e6e6e6;
+}
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+.col-xs-12{
+    transition: ease-in-out 120ms;
+    padding: 60px;
+    box-shadow: 0 1px 6px #1616164d;
+    
+}
+
+.col-xs-12:hover{
+    box-shadow: 0 12px 60px #1616164d;
+    border-radius: 12px;
+    transition: ease-in-out 120ms;
+}
+
+
+/** END HOME PAGE **/
